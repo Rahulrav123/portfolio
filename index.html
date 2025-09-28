@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="fade-in">
+        <img src="images/photo.jpg" alt="Rahul" class="profile-pic">
+        <h1>Rahul Rav</h1>
+        <p>Java Developer | MERN Developer | Freelancer</p>
+        <div class="social-links">
+            <a href="https://github.com/Rahulrav123" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/rahul-rav-9696r4031" target="_blank">LinkedIn</a>
+            <a href="mailto:rahulkumarrav0016@gmail.com">Email</a>
+            <a href="https://www.instagram.com/official_er.rahulrao4031?igsh=dGgwNHRneHc1dDdi" target="_blank">Instagram</a>
+            <a href="https://youtube.com/@er.rahulrao?si=kR_YODhp9NqaxkHX" target="_blank">youtube</a>
+        </div>
+        <button id="darkModeToggle" class="dark-toggle">🌙</button>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#about" class="active">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>I am a passionate Java and MERN developer. I love building scalable web apps and learning new technologies.I am a passionate and dedicated  Java Developer / Full Stack Developer developing, and maintaining web applications. I specialize in  Java, JSP, Servlets, MySQL, HTML, CSS, JavaScript, and I enjoy creating efficient, scalable, and user-friendly solutions.</p>
+    </section>
+
+    <!-- Projects Section -->
+    
+    <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <img src="images/book.jpg" alt="Bookstore">
+            <h3>Online Bookstore</h3>
+            <p>Full-stack Java JSP/Servlet + MySQL application.</p>
+            <a href="https://github.com/Rahulrav123/online-bookstore" 
+               target="_blank" class="btn">View Code</a>
+            <a href="https://rahulrav123.github.io/Rahul-Portfolio/" 
+               target="_blank" class="btn secondary">Live Demo</a>
+        </div>
+        <div class="project-card">
+            <img src="images/portfolio.jpg" alt="Portfolio">
+            <h3>Portfolio Website</h3>
+            <p>Responsive HTML/CSS/JS portfolio hosted on GitHub Pages.</p>
+            <a href="https://github.com/Rahulrav123/portfolio" 
+               target="_blank" class="btn">View Code</a>
+            <a href="https://yourusername.github.io/portfolio" 
+               target="_blank" class="btn secondary">Live Site</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Java (Core & Advanced)</li>
+            <li>Spring Boot + Hibernate</li>
+            <li>React.js + Node.js</li>
+            <li>MySQL + MongoDB</li>
+            <li>REST API Development</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Rahul Rav. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
